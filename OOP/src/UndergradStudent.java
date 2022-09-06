@@ -51,7 +51,7 @@ public class UndergradStudent extends Student implements Major{
     @Override
     public String greeting() {
         // TODO Auto-generated method stub
-        return super.greeting() + " My major is " + major +". My GPA is " + gpa + "and I have earned " + creditsEarned + " credits.";
+        return super.greeting() + " My major is " + major +". My GPA is " + gpa + " and I have earned " + creditsEarned + " credits.";
     }
 
     @Override

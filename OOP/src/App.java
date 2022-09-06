@@ -6,6 +6,10 @@ public class App {
         Student student = new Student("Jacob", "Elam", "CHC");
         System.out.println(student.greeting());
 
+        UndergradStudent undergradStudent = new UndergradStudent(student.getFirstName(), student.getLastName(), student.getSchoolName(), 3.27, 40, "Software Development");
+        System.out.println("--- Greeting --- \n"+undergradStudent.greeting());
+        System.out.println("--- Credits Remaining ---\n" + undergradStudent.creditsRemaining(180));
+        System.out.println("--- Is Major Complete ---\n" + undergradStudent.isMajorComplete(180));
         Integer one = 1;
         Double two = 2.0;
         String twoString = "2.0";
